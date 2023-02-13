@@ -1,4 +1,4 @@
 # Java
-## Basically here you'll find the questions solution using java.
+## Basically here you'll get the questions solution using java.
 ### Stay tuned <3
 
