@@ -21,10 +21,9 @@ public class PalindromeCheck {
 
 
         //Optimized Solution
-        
         Boolean isPalin = false;
         for(int i=0 ; i < str.length() / 2 ; i++) {
-            if(str.charAt(i)==str.charAt(str.length()-i-1)) isPalin = true;
+            if( str.charAt(i)==str.charAt(str.length()-i-1 )) isPalin = true;
 
         } 
         System.out.println("Is this String Palindrome , Condition : " + isPalin);
