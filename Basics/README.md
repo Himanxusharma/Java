@@ -1,7 +1,4 @@
-# Basics of Java
+# Basic Concept of Java
+### Static keyword
 
-## Dynamic Variables 
-### - they have to decided their type automatically.
-<br> Declaration of datatype is optional.
-## Static Variables ### - 
-
+ - When a variable is declared as static, then a single copy of the variable is created and shared among all objects at the class level.
