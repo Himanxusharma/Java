@@ -5,16 +5,19 @@ public class SumAnonymousArray {
     
         public static void main(String[] args) {
             
-            sum(new int[] {10,20,30});
+            sum(new int[][] {{10,20,30},{20,30,40}});
 
         }
 
-        static void sum(int[] no)
+        static void sum(int[][] no)
         {
             int sum = 0;
-            for(int i:no)
+            for(int ii[]:no)
             {
-                sum = sum +i;
+                for (int i:ii) {
+                    sum = sum +i;
+                }
+                
             }
 
             System.out.println("Sum of array is : " + sum);
