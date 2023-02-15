@@ -40,5 +40,5 @@ public class MinNum3d {
 
     System.out.println("Minimum num in the array is  : " + min );
 
-}
-}
+
+    }}}

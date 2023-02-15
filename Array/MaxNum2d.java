@@ -31,6 +31,6 @@ public class MaxNum2d {
         }
     }
 
-    System.out.println("Minimum num in the array is  : " + max )
+    System.out.println("Minimum num in the array is  : " + max );
 }
 }
