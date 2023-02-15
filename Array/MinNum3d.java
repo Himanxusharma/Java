@@ -6,11 +6,11 @@ public class MinNum3d {
     public static void main(String[] args) {
         
     Scanner sc = new Scanner(System.in);
-    System.out.println("Enter the num. of rows : ");
+    System.out.print("Enter the num. of rows : ");
     int a = sc.nextInt();
-    System.out.println("Enter the num. of Column : ");
+    System.out.print("Enter the num. of Column : ");
     int b = sc.nextInt();
-    System.out.println("Enter the third dimension : ");
+    System.out.print("Enter the third dimension : ");
     int c = sc.nextInt();
 
     int[][][] arr = new int[a][b][c];
@@ -35,7 +35,7 @@ public class MinNum3d {
     
                 }
             }
-        }
+    
     }
 
     System.out.println("Minimum num in the array is  : " + min );
