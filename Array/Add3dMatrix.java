@@ -15,7 +15,6 @@ public class Add3dMatrix {
     int c = sc.nextInt();
 
     int[][][] arr1 = new int[a][b][c];
-    
 
     for (int i = 0; i < arr1.length; i++) {
         for (int j = 0; j < arr1[i].length; j++) {
