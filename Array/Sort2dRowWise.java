@@ -6,9 +6,8 @@ import java.util.*;
 
 public class Sort2dRowWise {
 
-	static int sort2d(int arr[][])
-	{
-		
+	static int sort2d(int arr[][]) {
+
 		for (int i = 0; i < arr.length; i++) {
 
 			for (int j = 0; j < arr[i].length; j++) {
@@ -32,22 +31,22 @@ public class Sort2dRowWise {
 
 		return 0;
 	}
-	public static void main(String args[])
-	{
+
+	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the num. of rows : ");
 		int a = sc.nextInt();
 		System.out.print("Enter the num. of Column : ");
 		int b = sc.nextInt();
-	
+
 		int[][] arr = new int[a][b];
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
-	
+
 				arr[i][j] = sc.nextInt();
 			}
 		}
-			
-			sort2d(arr);
+
+		sort2d(arr);
 	}
 }
