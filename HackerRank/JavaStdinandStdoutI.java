@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem?isFullScreen=true
 package HackerRank;
 import java.io.*;
 import java.util.*;
