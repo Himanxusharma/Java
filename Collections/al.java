@@ -8,6 +8,8 @@ public static void main(String args[]){
     al.add("Ishu");  
     al.add("Kunal");  
     al.add("rohan");  
+
+    al.add(1,"This line create Concurrent Modification Exception in iterator while loop");
     Iterator itr=al.iterator();  
     while(itr.hasNext()){  
         System.out.println(itr.next());  
