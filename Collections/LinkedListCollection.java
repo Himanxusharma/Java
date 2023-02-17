@@ -12,9 +12,19 @@ public class LinkedListCollection {
 
             Iterator <String> itr = list.iterator();
 
+            //list.add(2, "Heya");
+
+            //print list using sop
+            System.out.println(list);
+
+            //Collections Sort function
+            Collections.sort(list);
+
+            //print using while loop
             while (itr.hasNext()) {
                 System.out.println(itr.next());
             }
+
         }
 
 
