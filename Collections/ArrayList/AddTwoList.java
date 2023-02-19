@@ -26,7 +26,7 @@ public class AddTwoList {
  
         ll2.addAll(ll3);
 
-        System.out.println("\naddAll(int index, Collection<? extends E> c) method: "+ll);  
+        System.out.println("\naddAll(int index, Collection<? extends E> c) method: "+ll1);  
 
         ll2.addFirst("Nothing");  
         System.out.print("addFirst(E e) method: "+ll2);  
