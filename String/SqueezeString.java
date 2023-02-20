@@ -15,7 +15,7 @@ public class SqueezeString {
         char[] ch = str.toCharArray();  
         StringBuffer nospace = new StringBuffer();  
         for (int i = 0; i < ch.length; i++) {  
-            if ((ch[i] != ' ') && (ch[i] != '\t')) {  
+            if ((ch[i] != ' ') && (ch[i] != '\t') && (ch[i] != '\n')) {  
                 nospace.append(ch[i]);  
             }  
         }  
