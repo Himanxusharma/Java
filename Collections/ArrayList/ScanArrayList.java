@@ -1,9 +1,8 @@
 package Collections.ArrayList;
-//not
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ShiftArray {
+public class ScanArrayList {
 
     public static void main(String[] args) {
 
@@ -14,8 +13,6 @@ public class ShiftArray {
             al.add(sc.nextInt());
         }
 
-        for(int i = 0; i < al.length; i++){
-            System.out.println(al(i));
-         }
+            System.out.println(al);
     }
 }
