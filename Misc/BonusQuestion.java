@@ -1,4 +1,4 @@
-package Collections;
+package Misc;
 
 // Bonus Question:
 // You have an array with N elements. Initially, each element value is 0 in array. You can perform the following operations:

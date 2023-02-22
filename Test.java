@@ -4,5 +4,6 @@ public class Test {
         int b = -6;
         int c = a+ Math.abs(b);
         System.out.println(c);
+        
     }
 }

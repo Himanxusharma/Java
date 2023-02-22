@@ -1,4 +1,4 @@
-package Collections;
+package Misc;
 
 import java.util.*;
 import java.util.stream.Collectors;
