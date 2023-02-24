@@ -20,6 +20,7 @@ public class readUsingStream {
         while ((line1 = br2.readLine()) != null) {
             System.out.println(line1);
         }
+        br2.close();
 
         System.out.println("\nreading file using stream. :  ");
         List<String> list1 = new ArrayList<>();
@@ -35,6 +36,7 @@ public class readUsingStream {
         BufferedReader br = Files.newBufferedReader(Paths.get(fileName));
         list = br.lines().collect(Collectors.toList());
         list.forEach(System.out::println);
+        br.close();
 
     }
 }
