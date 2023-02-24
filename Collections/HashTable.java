@@ -12,6 +12,7 @@ public class HashTable {
     ht1.put("B",2);
     ht1.put("C",3);
     ht1.put("D",4);
+    
 
 
     Hashtable <String, Integer> ht2 = new Hashtable<>();
