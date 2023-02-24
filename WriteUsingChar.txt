@@ -1,0 +1,1 @@
+Hello! This program to write using Char Stream.
