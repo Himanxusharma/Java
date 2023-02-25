@@ -1,4 +1,4 @@
-package Misc;
+package Threading;
 
 public class Thread1 {
 
