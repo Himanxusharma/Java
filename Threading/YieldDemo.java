@@ -1,6 +1,6 @@
 package Threading;
 
-public class YieldTest extends Thread{
+public class YieldDemo extends Thread{
     
     public void run()
     {
@@ -14,7 +14,7 @@ public class YieldTest extends Thread{
 
     public static void main(String[] args){
 
-        YieldTest yt = new YieldTest();
+        YieldDemo yt = new YieldDemo();
         yt.start();
         Thread.yield(); // if you want main method to stop and provide chance to other threads for execution
         
