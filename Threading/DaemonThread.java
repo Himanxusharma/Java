@@ -1,9 +1,5 @@
 package Threading;
 import java.lang.*;
-import java.rmi.server.SocketSecurityException;
-
-import javax.sound.sampled.SourceDataLine;
-import javax.sql.rowset.spi.SyncResolver;
 
 
 class Test extends Thread
