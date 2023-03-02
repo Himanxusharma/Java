@@ -3,8 +3,16 @@ import java.util.Scanner;
 
 class BookTheatreSeat{
     int total_seat = 10;
-    synchronized void bookSeat(int seat)
+     void bookSeat(int seat) //synchronized WILL SYNCHRONISE THE WHOLE METHOD
     {
+
+        System.out.println(seat + " Seat booked Successfully !!");
+        System.out.println(seat + " Seat booked Successfully !!");
+        System.out.println(seat + " Seat booked Successfully !!");
+        System.out.println(seat + " Seat booked Successfully !!");
+        System.out.println(seat + " Seat booked Successfully !!");
+
+        synchronized(this){
     if (total_seat>=seat) 
     {
     System.out.println(seat + " Seat booked Successfully !!");
@@ -13,7 +21,10 @@ class BookTheatreSeat{
     } 
     else {
         System.out.println("Seat can not be bookes !!");
-    }
+    }}
+    System.out.println(seat + " Seat booked Successfully !!");
+    System.out.println(seat + " Seat booked Successfully !!");
+    System.out.println(seat + " Seat booked Successfully !!");
     }
 
 }

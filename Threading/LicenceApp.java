@@ -13,7 +13,6 @@ class Medical extends Thread {
         }
     }
 }
-
 class TestDriver extends Thread {
     public void run() {
         try {
