@@ -1,4 +1,4 @@
-package Array;
+
 //row wise sorting is here
 
 import java.io.*;
