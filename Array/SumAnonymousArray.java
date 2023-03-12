@@ -1,4 +1,4 @@
-package Array;
+
 
 //Anonymous array is used when we use array instantly and there is no name.
 public class SumAnonymousArray {
