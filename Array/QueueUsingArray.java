@@ -1,11 +1,11 @@
-package Array;
+
 
 class Queue {
 
     static private int front, rear, capacity;
     static private int queue[];
 
-    Queue(int c) {
+    Queue(int c) { 
         front = rear = 0;
         capacity = c;
         queue = new int[capacity];

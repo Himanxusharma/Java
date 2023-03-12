@@ -5,6 +5,13 @@ BEGIN
 dbms_output.put_line(msg);
 END ;
 */
+set serveroutput off;
+
+savepoint s1;
+ROLLBACK to s1;
+COMMIT;
+
+
 DECLARE
 SUBTYPE name IS CHAR(20);
 SUBTYPE message IS VARCHAR2(20);
@@ -65,4 +72,16 @@ CASE
     /
 
 
-
+--LOOP
+DECLARE
+ x number := 10;
+ BEGIN
+ LOOP
+  dbms_output.put_line(x);
+  x:=x+10;
+  IF x>50 THEN
+    exit;
+    END IF;
+ END LOOP;
+END;
+/
