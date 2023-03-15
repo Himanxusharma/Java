@@ -11,8 +11,8 @@ public class JDBC_CSV {
 		try {
 			
 			// init
-			String SqlUsername = "himanshu";
-			String SqlPassword = "1234";
+			String SqlUsername = "Username";
+			String SqlPassword = "Password";
 			String SqlUrl = "jdbc:oracle:thin:@localhost:1521:orcl";
 //			Connection connection = null;
 //			Statement statement = null;
