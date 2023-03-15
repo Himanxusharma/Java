@@ -11,7 +11,7 @@ public class jdbc_connect {
 try {
 			
 			Class.forName("oracle.jdbc.driver.OracleDriver"); //The forName() method of java.lang.Class class is used to get the instance of this Class with the specified class name. 
-			Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","himanshu","1234");
+			Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","username","password");
 			
 			Statement smt = connection.createStatement();
 			/*
