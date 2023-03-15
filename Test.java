@@ -1,6 +1,5 @@
 // Java Program to Convert File to a Byte Array
 // Using Files.readAllBytes() Method
-
 // Importing required classes
 import java.io.*;
 import java.io.IOException;
