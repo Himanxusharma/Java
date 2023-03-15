@@ -1,10 +1,6 @@
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.io.FileWriter;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.io.IOException;
+import java.sql.*;
+import java.io.*;
 
 public class JDBC_CSV {
 	public static void main(String[] args) {
