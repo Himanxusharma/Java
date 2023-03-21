@@ -1,9 +1,7 @@
 package Threading;
-
 // import statement  
 import java.lang.*;  
-  
-  
+
 class ThreadNew extends Thread  
 {  
 // constructor of the  class  
