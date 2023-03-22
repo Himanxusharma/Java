@@ -1,5 +1,4 @@
 package Threading;
-
 class Medical extends Thread {
 
     public void run() {
