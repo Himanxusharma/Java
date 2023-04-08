@@ -26,3 +26,13 @@ BEGIN
     RETURN (customer_occupation);  
 END$$  
 DELIMITER;  
+
+set serveroutput on;
+create Table review (id int(11) Primary key auto increment ,course_name varchar(128),student_name varchar(45),timestamp timestamp,rating float,comment varchar(1024));
+
+desc review;
+
+ select * from Employee where Email = 'Hello@gmail.com';
+ ALTER TABLE Employee
+DROP COLUMN DOB;
+select * from Employee;
